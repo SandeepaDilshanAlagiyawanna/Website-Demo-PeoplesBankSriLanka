@@ -14,19 +14,39 @@
 .header nav{
     float: right;
     background: rgb(181, 178, 178);
+    border-radius: 5px;
+    border: 100px;
     margin: 15px;
     font-family: sansation;
+    font-weight: bold;
+    color: black;
+}
+
+.header nav table{
+    border: 0px;
+    margin: 10px;
     
+}
+
+.header nav table th{
+    border-right: solid 3px rgb(0, 0, 0);
 }
 
 .header nav a{
     margin: 10px;
+    text-decoration: none;
 
 }
+
+a:hover{
+    color: rgb(211, 7, 7);
+}
+
 
 .header nav a img{
     width: 25px;
     height: 25px;
     background:rgb(181, 178, 178) ;
+    margin-left: 15px;
 
 }
