@@ -13,7 +13,7 @@
 
 .header nav{
     float: right;
-    background: rgb(181, 178, 178);
+    background: rgb(220, 219, 219);
     border-radius: 5px;
     border: 100px;
     margin: 15px;
@@ -38,15 +38,18 @@
 
 }
 
+a:visited{
+    color:transparent;
+}
+
 a:hover{
     color: rgb(211, 7, 7);
 }
 
-
 .header nav a img{
     width: 25px;
     height: 25px;
-    background:rgb(181, 178, 178) ;
+    background:rgb(220, 219, 219) ;
     margin-left: 15px;
 
 }
