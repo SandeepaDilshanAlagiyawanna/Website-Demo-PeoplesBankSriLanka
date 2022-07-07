@@ -5,4 +5,9 @@
     height: 100px;
     background:white;
 }
-  
+
+.header nav{
+    float: right;
+    background: rgb(181, 178, 178);
+    
+}
