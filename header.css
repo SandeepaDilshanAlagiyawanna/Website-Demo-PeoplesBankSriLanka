@@ -1,8 +1,8 @@
 .header img {
     float: left;
     margin-left: 30px;
-    width: 200px;
-    height: 80px;
+    width: 180px;
+    height: 70px;
     background:white;
 }
 
@@ -11,31 +11,37 @@
     src: url(sansation/Sansation_Regular.ttf);
 }
 
-.header nav{
+.header .nav{
     float: right;
     background: rgb(220, 219, 219);
     border-radius: 5px;
-    border: 100px;
-    margin: 15px;
+    border: 80px;
+    margin: 12px;
+    margin-right: 30px;
     font-family: sansation;
     font-weight: bold;
     color: black;
 }
 
-.header nav table{
+.header .nav table{
     border: 0px;
-    margin: 10px;
-    
+    margin: 5px;
+    border-right-color: rgb(220, 219, 219); 
 }
 
-.header nav table th{
+.header .nav table th{
     border-right: solid 3px rgb(0, 0, 0);
+    padding-inline: 5px;
 }
 
-.header nav a{
-    margin: 10px;
+.header .nav a{
+    margin: 8px;
     text-decoration: none;
 
+}
+
+.header .nav .font-size-swither {
+    padding: 0 10px;
 }
 
 a:link{
@@ -50,10 +56,45 @@ a:hover{
     color: rgb(211, 7, 7);
 }
 
-.header nav a img{
+.font-size-swither .small:hover{
+    color: rgb(211, 7, 7);
+}
+.font-size-swither .medium:hover{
+    color: rgb(211, 7, 7);
+}
+.font-size-swither .large:hover{
+    color: rgb(211, 7, 7);
+}
+
+.header .nav a img{
     width: 25px;
     height: 25px;
     background:rgb(220, 219, 219) ;
     margin-left: 15px;
 
 }
+
+.header .nav select{
+    font-family: sansation;
+    font-weight: bold;
+}
+
+.font-size-swither .small {
+    font-size: 14px;
+}
+.font-size-swither .medium {
+    font-size: 16px;
+}
+.font-size-swither .large {
+    font-size: 18px;
+}
+.font-size-swither span {
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.header select{
+    background-color: rgb(220, 219, 219); 
+    border: 0ch
+}
+
