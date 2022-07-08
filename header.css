@@ -29,6 +29,21 @@ body{
     color: black;
 }
 
+.header .nav .font-size-swither {
+    padding: 0 10px;
+}
+
+.font-size-swither .small {
+    font-size: 14px;
+}
+.font-size-swither .medium {
+    font-size: 16px;
+}
+.font-size-swither .large {
+    font-size: 18px;
+}
+
+
 .header nav table{
     border: 0px;
     margin: 10px;
@@ -56,6 +71,14 @@ a:visited{
 a:hover{
     color: rgb(211, 7, 7);
 }
+
+.header select{
+    background-color: rgb(220, 219, 219); 
+    border: 0ch;
+    font-weight: bold;
+    font-family: sansation;
+}
+
 
 .header nav a img{
     width: 25px;
