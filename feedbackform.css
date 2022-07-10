@@ -1,0 +1,58 @@
+h2{
+    font-family: sansation;
+}
+@font-face {
+    font-family: sansation;
+    src: url(sansation/Sansation_Regular.ttf);
+}
+
+.form-container{
+    font-family: sansation;
+}
+
+.checkbox-container{
+    
+}
+
+input[type=checkbox]{
+    background-color: #c80000;
+}
+
+input[type=text], select {
+    font-family: sansation;
+    width: 40%;
+    padding: 23px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 90%;
+    height: 291px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+button{
+    width: 90%;
+    height:64px;
+    background-color: #c80000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}  
+
+button:hover {
+    color:#c80000;
+    background-color: white;
+    border:solid 1px #c80000;
+}
+
