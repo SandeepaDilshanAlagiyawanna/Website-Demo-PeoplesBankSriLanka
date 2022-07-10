@@ -1,0 +1,55 @@
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides img{
+	width: 1054px;
+	height: 461px;
+}
+
+.apps{
+	text-align: center;
+	padding: 10px;
+}
+
+.apps img{
+	width: 186px;
+	height: 58px;
+}
+
+.feedback{
+	background-color: #c80000;
+	color: white;
+	height: 100px;
+	width: 40px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius: 5px;
+	
+	position: fixed;
+
+	top: 300px;
+	right: 0px;
+
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+}
+
+.feedback a{
+	font-family: sansation;
+	font-weight:bold;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+@font-face {
+    font-family: sansation;
+    src: url(sansation/Sansation_Regular.ttf);
+}
