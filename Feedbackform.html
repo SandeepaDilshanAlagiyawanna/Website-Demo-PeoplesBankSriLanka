@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Feedback Form</title>
+        <link rel="stylesheet" href="feedbackform.css">
+    </head>
+    <body>
+        <h2>Share your feedback</h4>
+
+        <form>
+            <div class="form-container">
+                <lablel for="customer">Are you an existing People's Bank <br>customer</lablel>
+
+                <div class="checkbox-container">
+                    <input type="checkbox" name="choice" checked>
+                    <lable for="yes">Yes</lable>
+                
+                    <input type="checkbox" name="choice">
+                    <lable for="yes">No</lable>
+                </div>
+
+                <div name="textbox-container">
+                    <input type="text" name="FullName" placeholder="Full Name">
+                    <input type="text" name="Email" placeholder="E mail"><br>
+                    <input type="text" name="Mobile" placeholder="Mobile">
+                    <input type="text" name="ID" placeholder="Customer ID / Account Number / Card Number"><br>
+                </div>
+
+                <div name="dropdownList-container">
+                    <select name="feedback">
+                        <option value="Improvement">Improvement</option>
+                        <option value="Compliment">Compliment</option>
+                        <option value="Complaint">Complaint</option>
+                        <option value="Query">Query</option>
+                        <option value="Request">Request</option>
+                    </select>
+
+                    <select name="AboutFeedback">
+                        <option value="MyFeedbackIsAbout">My feedback is about</option>
+                        <option value="DoingBusinessAtABranch">Doing business at a branch</option>
+                        <option value="InternetBanking">Internet Banking</option>
+                        <option value="PersonalBanking">Personal Banking</option>
+                        <option value="BusinessBanking">Business Banking</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+                <br>
+
+                <div name="textrea-container>">
+                    <textarea name="ComplaintSuggestion" placeholder="Please provide details about your complaint or suggestion"></textarea>
+                    <p>0/1000</p>
+                </div><br>
+
+                <div name="button-container">
+                    <button name="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
