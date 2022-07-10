@@ -126,7 +126,7 @@ a:link{
 
 .main-nav .main-list {
     list-style: none;
-    width: 85%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     background: #FFCB47;
