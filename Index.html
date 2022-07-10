@@ -5,6 +5,7 @@
     <link rel="icon" type="image/x-icon" href="img/old log.png">
 
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="body.css">
     <link rel="stylesheet" href="footer.css">
 
   </head>
@@ -160,6 +161,46 @@
     </div>
     </nav>
   </div>
+    <div class="slideshow-container">
+      
+      <div class="mySlides">
+        <img src="img-body/Peoples-Pay-New-Web-E.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <img src="img-body/Peoples-Wave-New-Web-E.jpg" style="width:100%">
+      </div>
+      
+    </div>
+    <script>
+      let slideIndex = 0;
+      showSlides();
+    
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+      
+        slides[slideIndex-1].style.display = "block";  
+
+        setTimeout(showSlides, 5000);
+      }
+    </script>
+    <div class="apps">
+      <a href="Blank.html"><img src="img-body/google-play-png-logo.png"></a>
+      <a href="Blank.html"><img src="img-body/app-store-png-logo2.png"></a>
+      <a href="Blank.html"><img src="img-body/app-gallery-png-logo.png"></a>
+
+    </div>
+
+    <div class="feedback">
+      <a href="">Feedback</a>
+    </div>
+
 
   </body>
 

@@ -87,7 +87,6 @@ hr{
 
 .endblock-links a{
     color: #ffffff6b;
-    color: white;
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
@@ -99,6 +98,6 @@ hr{
     margin-right: 100px;
 }
 
-a:hover{
+.footer a:hover{
     color: rgb(211, 7, 7);
  }
