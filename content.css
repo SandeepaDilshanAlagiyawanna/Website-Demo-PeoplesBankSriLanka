@@ -1,8 +1,17 @@
+@font-face {
+    font-family: sansation;
+    src: url(sansation/Sansation_Regular.ttf);
+}
+
+body{
+	font-family: sansation;
+}
+
 div.mainimage{
 			background-image: url(img/bgimg_11.jpg) ;
 			background-repeat: no-repeat;
   			background-size: 121% 100%;
-  			
+  			float: right;
 			width: 100%;
 			height: 450px;
 		}
@@ -59,9 +68,9 @@ div.mainimage{
 
 
 	div.block_2{
-				width: 56%;
+				width: max-content;
 				height: 220px;
-				margin-left: 25%;
+				margin-left: 15%;
 				float: left;
 			}
 			div.block_2_image{
@@ -95,7 +104,8 @@ div.mainimage{
 				border-radius: 10px;
 				float: left;
 				margin: 10px;
-				padding: 12px; 
+				padding: 12px;
+				box-shadow: 2px 2px 12px -1px rgb(0 0 0 / 35%); 
 				-webkit-box-shadow: 2px 2px 12px -1px rgb(0 0 0 / 35%);
 			}
 
