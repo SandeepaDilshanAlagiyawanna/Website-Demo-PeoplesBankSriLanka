@@ -1,0 +1,121 @@
+div.mainimage{
+			background-image: url(img/bgimg_11.jpg) ;
+			background-repeat: no-repeat;
+  			background-size: 121% 100%;
+  			
+			width: 100%;
+			height: 450px;
+		}
+		div.mainbox{
+			background: rgba(129, 208, 0, 0.85);
+			border: 1px solid #fff;
+			float:right;
+			width: 308px;
+			height: 234px;
+			border-radius: 10px;
+			outline: none;
+			margin-top: 98px;
+			margin-bottom: 10px;
+			margin-left: 15px;
+			margin-right: 59px;
+			padding: 6px;
+			padding-bottom: 1px;
+			text-decoration: none;
+			
+			
+		}
+		div.box{
+			background: rgba(129, 208, 0, 0.0);
+			border: 2px solid  #fff;
+			width: 100px;
+			height: 90px;
+			border-radius: 10px;
+			font-family: 'sansation-regular';
+			outline: none;
+			margin-top: 2px;
+			margin-bottom: 10px;
+			margin-left: 15px;
+			margin-right: 15px;
+			padding:10px;
+			padding-bottom: 2px;
+			align-content: center;
+			float: left;
+			
+			
+
+		}
+		div.box img{
+			align-content: right;
+		}
+
+		
+	.img{
+		margin: auto;
+		display: block;
+	}
+	
+
+
+
+
+	div.block_2{
+				width: 56%;
+				height: 220px;
+				margin-left: 25%;
+				float: left;
+			}
+			div.block_2_image{
+				float: left;
+				padding-top: 20px;
+				padding-right: 35px;
+				padding-left: 35px;
+				margin-right: 17px;
+				margin-left: 17px;
+				
+			}
+			
+			p.block_2_title{
+				font-size: 20px;
+				text-align: center;
+
+			}
+
+			div.main_block_3{
+				width: 100%;
+				height: 530px;
+				padding-left: 30px;
+				padding-right: 30px;
+				
+				
+			}
+			div.block_3{
+				width: 29%;
+				height: 200px;
+				border: 1px solid #81d000;
+				border-radius: 10px;
+				float: left;
+				margin: 10px;
+				padding: 12px; 
+				-webkit-box-shadow: 2px 2px 12px -1px rgb(0 0 0 / 35%);
+			}
+
+
+			a.block_31:link, a.block_31:visited {
+			  background-color: #81d000;
+			  color: #fff;
+			  border: 1px solid #81d000;
+			  padding: 0px 30px !important;
+			  text-align: center;
+			  text-decoration: none;
+			  display: inline-block;
+			  border-radius: 10px;
+			  margin-left: 35%;
+
+			}
+
+			a.block_31:hover, a.block_31:active {
+			  background-color: #fff;
+			  color: #81d000;
+			  border: 1px solid #81d000;
+			  border-radius: 10px;
+			}

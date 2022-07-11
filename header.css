@@ -121,6 +121,7 @@ a:link{
     -webkit-box-shadow: 2px -1px 54px -14px rgb(0 0 0 / 46%);
     -moz-box-shadow: 2px -1px 54px -14px rgba(0,0,0,0.46);
     z-index: 1;
+    clear: both;
 
 }
 
@@ -144,6 +145,7 @@ a:link{
 
 .main-list a {
     float: none;
+    height: max-content;
     color: black;
     padding: 12px 16px ;
     text-decoration: none;
@@ -201,6 +203,7 @@ a:link{
     width: 15%;
     height: 8%;
     float:right;
+    clear: both;
     background: #FFCB47;
     position:relative;
     overflow: hidden;
