@@ -53,3 +53,25 @@ img {vertical-align: middle;}
     font-family: sansation;
     src: url(sansation/Sansation_Regular.ttf);
 }
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 99;
+	font-size: 30px;
+	border: none;
+	outline: none;
+	background-color:#ff0000;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+  }
+  
+  #myBtn:hover {
+	background-color: #555;
+  }
+
+  html{
+	scroll-behavior: smooth;
+  }
