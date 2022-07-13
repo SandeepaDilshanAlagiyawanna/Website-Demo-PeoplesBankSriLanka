@@ -127,11 +127,11 @@ a:link{
 
 .main-nav .main-list {
     list-style: none;
-    width: 80%;
     display: flex;
+    width: 80%;
     flex-direction: row;
     background: #FFCB47;
-    height: 8%;
+    height: 12%;
     flex-wrap: wrap;
     align-items: center;
     margin: 0;
@@ -202,7 +202,6 @@ a:link{
 .nav-red-button-container {
     width: 15%;
     height: 8%;
-    float:right;
     clear: both;
     background: #FFCB47;
     position:relative;
