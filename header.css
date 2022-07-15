@@ -130,7 +130,7 @@ a:link{
     flex-direction: row;
     background: #FFCB47;
     width: 80%;
-    height: 8%;
+    height: 48px;
     flex-wrap: wrap;
     align-items: center;
     margin: 0;
@@ -144,11 +144,10 @@ a:link{
 
 .main-list a {
     float: none;
-    height: max-content;
     color: black;
     padding: 16px 16px ;
     text-decoration: none;
-    display: block;
+    display:block;
     text-align: left;
   }
 
@@ -176,7 +175,6 @@ a:link{
 
 .main-nav{
     display: flex;
-    height: 100%;
 }
 
 .dropdown ul {

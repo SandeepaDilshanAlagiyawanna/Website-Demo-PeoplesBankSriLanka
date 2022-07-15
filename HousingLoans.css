@@ -1,0 +1,281 @@
+@font-face {
+    font-family: sansation;
+    src: url(sansation/Sansation_Regular.ttf);
+}
+
+.housing-loans{
+    background-image: url(/img/PB_Housing_Loans.jpg);
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.top-head-heading {
+    background-image: url(/img/arrowgrey2.png);
+    background-repeat: no-repeat;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-size: 100% 100%;
+    max-width: 400px;
+}
+
+.custom-left-padding1 {
+    padding-left: 4%;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.top-head-heading h2 {
+    font-size: 2.4em;
+    color: #C80000;
+    font-weight: bold;
+}
+
+.top-head-heading h2 span {
+    color: #FFCC00;
+}
+
+/* buttons*/
+
+.margin-buttons {
+    padding: 5px 4%;
+    margin-top: 3rem!important;
+}
+
+.btn-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.btn-container .btn-type2 {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.btn-type2 {
+    font-size: 1.1em;
+    font-family: sansation;
+    display: inline-block;
+    padding: 8px 3%;
+    line-height: 1em;
+    background: #F7F7F7;
+    border: 1px solid rgba(0,0,0,0.45);
+    width: max-content;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn-top1:hover{
+    color: #81D000;
+    border: 1px solid #81D000;
+}
+
+.btn-top1.active-btn2:hover{
+    color: white;
+}
+
+.active-btn2{
+    background: #81D000;
+    border: 1px solid #81D000;
+    color: #fff;
+} 
+
+
+.btn-top1 {
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+}
+
+/* First grid*/
+.housing-loans-card {
+    grid-template-columns: 1fr;
+}
+
+.housing-loans-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 5px 4%;
+    gap: 20px;
+
+} 
+
+.digital-card.active {
+    background: #C80000;
+    color: #fff;
+}
+
+.digital-card {
+    height: 310px;
+}
+
+.digital-card {
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid rgba(200,0,0,0.5);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+h6 {
+    display: block;
+    font-size: 1rem;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.read-more{
+    color: #C80000;
+}
+
+/* more details*/
+
+.card-content {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.grey1 {
+    background-color: #F7F7F7;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container-custom1 {
+    padding: 5px 4%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.mt-4 {
+    margin-top: 1.5rem!important;
+}
+
+.head-1 {
+    display: flex;
+    align-items: center;
+}
+
+.head-1 img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.heading-type1 {
+    margin: 0;
+    font-size: 1.7em;
+}
+
+.text-type1 {
+    margin: 0;
+    font-size: 1.1em;
+    line-height: 1.18em;
+}
+
+.mt-3 {
+    margin-top: 1rem!important;
+}
+
+P {
+    text-align: justify !important;
+}
+
+/* last grid*/
+.text-bar3 {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+
+.text-bar3 ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 3px solid rgba(0,0,0, 0.15);
+}
+
+ol, ul {
+    box-sizing: border-box;
+}
+
+.text-bar3 ul .active {
+    font-weight: bold;
+    color: #81D000;
+}
+
+.text-bar3 ul li {
+    padding-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/*Features and others*/
+
+.row-unset-margin {
+    margin-left: unset;
+    margin-right: unset;
+}
+
+.mt-5 {
+    margin-top: 3rem!important;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jyn-padding-left {
+    padding-left: 6%;
+}
+
+.padding-top1 {
+    padding-top: 20px;
+}
+
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+.row>* {
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}

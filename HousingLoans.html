@@ -3,11 +3,12 @@
 
     <title>Peoples Bank - Personal & Corporate Banking | Investments & Loans</title>
     <link rel="icon" type="image/x-icon" href="img/old logo.png">
-
+  
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="body.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="HousingLoans.css">
   </head>
   <body>
     <!-- First Nav -->
@@ -40,7 +41,7 @@
         </table>
       </nav> 
     </div>
-     <!-- Second Nav -->
+    <!-- Second Nav -->
     <nav>
       <div class="main-nav">
       <ul class="main-list">
@@ -163,8 +164,134 @@
       </div>
     </div>      
     </nav>
+    <!--Body Image-->
+    <div class="housing-loans">
+      <div class="top-head-heading custom-left-padding1 " id="Savings_accounts">
+        <h2>Housing   <br>
+            <span>Loans</span>
+        </h2>
+      </div>
+    </div>
 
-
+    <!--Buttons-->
+    <section class="margin-buttons">
+      <div class="btn-container">
+        <button id="housing_loans" class="btn-top1 btn-type2 active-btn2 tablinks Housing_Loans btn-hover" onclick="bkgcolor(event,'housing_loans')">
+        Housing Loans </button>
+        <button id="professional_loans" class="btn-top1 btn-type2 tablinks Professional_Loans btn-hover" onclick="bkgcolor(event,'professional_loans')">
+        Professional Loans </button>
+        <button id="quick_easy" class="btn-top1 btn-type2 tablinks Quick btn-hover" onclick="bkgcolor(event, 'quick_easy')">
+        Quick & Easy Loans</button>
+        <button id="vehicle_loans" class="btn-top1 btn-type2 tablinks Vehicle_Loans btn-hover" onclick="bkgcolor(event, 'vehicle_loans')">
+        Vehicle Loans</button>
+        <button id="educational_loans" class="btn-top1 btn-type2 tablinks Educational_Loans btn-hover" onclick="bkgcolor(event, 'educational_loans')">
+        Educational Loans</button>
+        <script src="HousingLoans.js"></script>
+    </div>
+    </section>
+    <!-- Grid -->
+    <div id="HousingLoans" class="all-main">
+      <div class="margin-buttons housing-loans-card xyz">
+        <div class="digital-card active cardlinks cursor-pointer" >
+          <img class="active-img" src="/img/Jayaniwasa Housing loan.png" alt="">
+          <h6> Jayaniwasa Housing Loans</h6>
+          <p> Jayaniwasa is a housing loan designed particularly for people with a steady monthly income and looking to build, purchase...</p>
+        </div>
+        <div class="digital-card cardlinks cursor-pointer">
+          <img class="normal-img" src="/img/Dream Home LoanR.png" alt="">
+          <h6> Dream Home Loan</h6>
+          <p> People’s Bank Dream Home Loan Scheme designed for who are engaged in high earning employment,</p>
+          <p class="read-more"><a> Read More</a></p>
+        </div>
+        <div class="digital-card cardlinks cursor-pointer" >
+          <img class="normal-img" src="/img/Suwasewana LoanR.png" alt="">
+          <h6> Suwasewana Loan Scheme</h6>
+          <p> Suwasewana loan scheme is a flexible and easy loan scheme for health sector employees in the government sector.</p>
+          <p class="read-more"><a> Read More</a></p>
+        </div>
+        <div class="digital-card cardlinks cursor-pointer">
+          <img class="normal-img" src="/img/People's Home LoanR.png" alt="">
+          <h6> People’s Home Loan</h6>
+          <p> People’s Home Loan designed with unique features for monthly salary earners and young professionals with a fixed ....</p>
+          <p class="read-more"><a> Read More</a></p>
+        </div>
+      </div>
+      <!-- More Details -->
+      <div class="card-content" style="display: block;">
+        <div class="mt-4 grey1 container-custom1">
+          <div class="head-1">
+              <img src="/img/jnew.jpg" alt=""> 
+              <h4 class="heading-type1"> Jayaniwasa Housing Loans</h4>
+          </div>
+          <p class="text-type1 mt-3">
+           Jayaniwasa is a housing loan designed particularly for people with a steady monthly income and looking to build, purchase or renovate their house. It offers flexible payment terms and competitive interest rates, enabling you to build your dream home with much convenience.</p>
+          
+        </div>
+        <section class="container-custom1" style="display: block;">
+          <div class="text-bar3 text-type1 mt-4">
+              <ul>
+                  <li class="jayaniwasa_housing_links cursor-pointer active" onclick="jayaniwasa_housing_scroll(event, 'jayaniwasa_housing_features')">Features</li>
+                  <li class="jayaniwasa_housing_links cursor-pointer" onclick="jayaniwasa_housing_scroll(event, 'jayaniwasa_housing_eligibility')">Eligibility </li>
+                  <li class="jayaniwasa_housing_links cursor-pointer" onclick="jayaniwasa_housing_scroll(event, 'jayaniwasa_housing_special')">Special Benefits</li>
+                  <li class="jayaniwasa_housing_links cursor-pointer" onclick="jayaniwasa_housing_scroll(event, 'jayaniwasa_housing_contact_us')">Contact Us</li>
+              </ul>
+          </div>
+  <script>
+  function jayaniwasa_housing_scroll(evt, tabsName) {
+    var i, tabcontent, tablinks;
+    tablinks = document.getElementsByClassName("jayaniwasa_housing_links");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tabsName).scrollIntoView();
+    evt.currentTarget.className += " active";
+  }
+  </script>
+          <div class="row row-unset-margin mt-5" id="jayaniwasa_housing_features">
+            <div class="col-md-4 padding-top1 jyn-padding-left">
+                <h4 class="heading-type1 jyn-margin-btm">Features</h4>
+            </div>
+            <div class="col-md-8">
+                <div class="icon-with-right-text-block1 mb-3">
+                    <img class="logo-fixed-width1" src="https://www.peoplesbank.lk/roastoth/2021/09/ja1.png" alt="">
+                    <h7 class="text-type1">Securities : Up to 1Mn Personal Guarantors,  Above 1Mn Property Mortgage</h7>
+                </div>
+                <div class="icon-with-right-text-block1 mb-3">
+                  <img class="logo-fixed-width1" src="https://www.peoplesbank.lk/roastoth/2021/09/ja2.png" alt="">
+                  <h7 class="text-type1">Repayment period : Guarantors 5yrs, Property 20yrs</h7>
+                </div>
+                <div class="icon-with-right-text-block1 mb-3">
+                    <img class="logo-fixed-width1" src="https://www.peoplesbank.lk/roastoth/2021/09/ja3.png" alt="">
+                    <h7 class="text-type1">Interest rate : 27% - 29%</h7>
+                </div>                     
+            </div>
+          </div>
+          <hr class="break-line1">
+          <div class="row row-unset-margin" id="jayaniwasa_housing_eligibility">
+              <div class="col-md-4 padding-top1 jyn-padding-left">
+                  <h4 class="heading-type1 jyn-margin-btm">Eligibility </h4>
+              </div>
+              <div class="col-md-8">
+                  <ul class="tick-list text-type1">        
+                     <li>Salary Earners/Businessmen &amp; Businesswomen with a steady monthly income</li>    
+                  </ul>
+              </div>
+          </div>
+          <hr class="break-line1">      
+           <div class="row row-unset-margin" id="jayaniwasa_housing_special">
+              <div class="col-md-4 padding-top1 jyn-padding-left">
+                  <h4 class="heading-type1 jyn-margin-btm">Special Benefits</h4>
+              </div>
+              <div class="col-md-8">
+                  <ul class="tick-list text-type1">         
+                     <li>Loan facilities for housing, purchase of land, construction, repairs or renovations</li>
+                  </ul>
+              </div>
+          </div>
+          <hr class="break-line1">
+  </section>
+      </div>
+    </div>
 
     <!--FeedBack-->
     <div class="feedback">
