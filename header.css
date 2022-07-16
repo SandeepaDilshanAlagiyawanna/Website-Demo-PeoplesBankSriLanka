@@ -178,6 +178,7 @@ a:link{
 }
 
 .dropdown ul {
+    padding: 0px;
     list-style: none;
     min-width: fit-content;
     display: block;
