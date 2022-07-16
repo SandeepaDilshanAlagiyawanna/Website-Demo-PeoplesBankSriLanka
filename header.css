@@ -129,7 +129,7 @@ a:link{
     display: flex;
     flex-direction: row;
     background: #FFCB47;
-    width: 80%;
+    width: 100%;
     height: 48px;
     flex-wrap: wrap;
     align-items: center;
