@@ -219,11 +219,14 @@ ol, ul {
     box-sizing: border-box;
 }
 
-.text-bar3 ul .active {
+.text-bar3 ul li.active {
     font-weight: bold;
     color: #81D000;
 }
 
+.text-bar3 ul li.active{
+    border-bottom: 3px solid #81D000
+}
 .text-bar3 ul li {
     padding-top: 20px;
     margin-bottom: 10px;
