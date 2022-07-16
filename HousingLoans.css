@@ -367,3 +367,9 @@ img, svg {
 a {
     text-decoration: none;
 }
+
+.red-btn1:hover{
+    color: #C80000;
+    background: #fff;
+
+}
