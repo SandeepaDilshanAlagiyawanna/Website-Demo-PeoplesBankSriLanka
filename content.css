@@ -70,7 +70,7 @@ div.mainimage{
 	div.block_2{
 				width: max-content;
 				height: 220px;
-				margin-left: 15%;
+				margin-left: 23%;
 				float: left;
 			}
 			div.block_2_image{
@@ -94,6 +94,7 @@ div.mainimage{
 				height: 530px;
 				padding-left: 30px;
 				padding-right: 30px;
+				padding-bottom: 450px;
 				
 				
 			}
