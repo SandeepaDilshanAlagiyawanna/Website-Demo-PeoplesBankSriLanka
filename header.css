@@ -120,7 +120,6 @@ a:link{
     -webkit-box-shadow: 2px -1px 54px -14px rgb(0 0 0 / 46%);
     -moz-box-shadow: 2px -1px 54px -14px rgba(0,0,0,0.46);
     z-index: 1;
-    clear: both;
 
 }
 
@@ -130,7 +129,7 @@ a:link{
     flex-direction: row;
     background: #FFCB47;
     width: 100%;
-    height: 48px;
+    height: 55px;
     flex-wrap: wrap;
     align-items: center;
     margin: 0;
@@ -204,7 +203,7 @@ a:link{
 }
 .nav-red-button-container {
     width: 15%;
-    height: 8%;
+    height: 55px;
     clear: both;
     background: #FFCB47;
     position:relative;

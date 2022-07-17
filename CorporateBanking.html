@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Peoples Bank - Personal & Corporate Banking | Investments & Loans </title>
+		<link rel="stylesheet" href="header.css">
+		<link rel="stylesheet" href="footer.css">
+		<style>
+
+
+
+			@font-face {
+    		font-family: sansation;
+   			 src: url(sansation/Sansation_Regular.ttf);
+			}
+				@font-face {font-family: sansation-bold;
+   			 src: url(sansation/Sansation_Bold.ttf);
+			}
+			.top-image-div {
+				background-image: url(BusinessLoansImage/Corporate_inner_Page-1.jpg);
+				padding: 100px 0;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+
+			.top-image-text {
+				background-image: url(BusinessLoansImage/arrowgrey2.png);
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				max-width: 400px;
+				padding-top: 0;
+				padding-bottom: 0;
+				
+
+			}
+
+			.top-image-h2 {
+				font-size: 2.4em;
+				font-family: 'sansation-bold';
+				font-weight: 500;
+				line-height: 1.2;
+				padding-left: 50px;
+				padding-top: 8px;
+				padding-bottom: 8px;
+			}
+
+			.bottom-span {
+				
+				color: #FFCC00;
+				
+				
+			}
+			.top-span {
+				color: #C80000;
+				margin-top: 0;
+				margin-bottom: 0.5rem;
+				
+			}
+			.button-section {
+				
+				margin-top: 60px;
+				
+				
+			}
+			.button-main-top-div {
+				display: flex;
+				margin-left: 50px;
+				
+			}
+			.button-main-bottom-div {
+				margin-top: 15px;
+				margin-left: 50px;
+				
+				
+			}
+			.button-set-div{
+				width: 270px;
+				border: 1px solid rgba(0,0,0,0.45);
+				background: #F7F7F7;
+				font-family: 'sansation';
+				padding-top:14px;
+				padding-bottom: 14px;
+				border-radius: 10px;
+				text-align: center;
+				margin: 5px;
+				font-size: 1.1em;
+				color: black;
+
+			}
+
+			.button-set-div-active{
+				width: 270px;
+				border: 1px solid #81D000;
+				background: #81D000;
+				font-family: 'sansation';
+				padding-top:14px;
+				padding-bottom: 14px;
+				border-radius: 10px;
+				text-align: center;
+				margin: 5px;
+				color: #fff;
+				font-size: 1.1em;
+				
+			}
+			.button-set-link {
+				text-decoration: none;
+			}
+			.button-set-div:hover {
+				background-color: #F7F7F7;
+				color: #81D000;
+			}
+			
+			.block-3 {
+				display:flex;
+				margin-top: 60px;
+				margin-left: 40px;
+				
+			}
+			.block-3 h6 {
+				font-size: 1.2em;
+				font-weight: 500;
+				line-height: 1.2;
+				margin-top: 20px;
+				
+			}
+			.block-3-box-active {
+				width:310px;
+				height: 120px;
+				background: #C80000;
+				color: #fff;
+				border: 1px solid rgba(200,0,0,0.5);
+				border-radius: 10px;
+				padding:20px;
+				font-family: 'sansation';
+				margin: 10px;
+			}
+			.block-3-box-link {
+				text-decoration: none;
+				transition-duration: 0.5s;
+			}
+
+			.block-3-box {
+				width:310px;
+				height: 120px;
+				background: #fff;
+				color: #212529;
+				border: 1px solid rgba(200,0,0,0.5);
+				border-radius: 10px;
+				padding:20px;
+				font-family: 'sansation';
+				font-weight: 400;
+				margin: 10px;
+			}
+
+			.block-4 {
+				padding-left: 50px;
+				padding-right: 50px;
+				background-color: #F7F7F7;
+				font-family:'sansation' ;
+				font-size: 1.1em;
+			}
+
+			.block-4-top {
+
+			}
+
+			.block-4-h {
+				padding-top: 50px;
+			}
+
+			.block-4-p {
+
+			}
+			.before-p::before {
+    		content: "✓";
+    		color: rgb(200, 0, 0);
+    		font-weight: bold;
+    		margin-right: 10px;
+    		font-size: 1.4em;
+			}
+			.block-4-ul {
+				list-style: none;
+				padding:0;
+				padding-bottom: 25px;
+				line-height: 1.18em;
+				
+			}
+			.block-5-div {
+				display:flex;
+				font-family: 'sansation';
+				padding-left: 100px;
+				box-sizing: border-box;
+				padding-top: 20px;
+				margin-right: 50px;
+				line-height: 2;
+
+			}
+			.block-5-left-div {
+				font-family: sansation-bold;
+				font-size: 1.7em;
+				box-sizing: border-box;
+				display:flex;
+				width:550px;
+				
+			}
+			.block-5-left-div {
+				box-sizing: border-box;
+
+			}
+			.block-5-right-div {
+				box-sizing: border-box;
+				width:100%;
+				font-size: 1.1em;
+			}
+			.block-5-right-sub-div {
+				box-sizing: border-box;
+				flex:0 0 auto;
+				width:50%;
+				
+			}
+			.block-5-right-ul {
+				list-style: none;
+			}
+			
+			.block-5-right-ul img {
+				width: 25px;
+				margin-right:15px;
+				height: max-content;
+				align-self:baseline;
+				vertical-align:middle;
+			}
+			.block-5-div h6 {
+				font-family: 'sansation-bold';
+				font-size: 1.2em;
+				margin-bottom: 1rem;
+			}
+			.block-5-right-sub-div-top {
+				display:flex;
+			}
+			.block-5-right-sub-div-bottom {
+				display:flex;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div class="header">
+			<a href="Index.html">
+			<img src="img/PB_LOGO_Pride of the Nation.png" alt="logo" />
+			</a>
+			<nav class="nav">
+			  <table>
+				<tr>
+				  <th><a href="Blank.html">About Us</a>  </th>
+				  <th><a href="Blank.html">Carrers</a> </th>
+				  <th><a href="Blank.html">Contact us</a></th>
+				  <th><a href="Blank.html"><img src="img/search.png" alt="search"></a></th>
+				  <th><a href="Index.html"><img src="img/home.jpg" alt="home"></a></th>
+				  <th>
+					<div class="font-size-swither">
+					  <span class="small" data-font-size="13">A</span>
+					  <span class="medium" data-font-size="16">A</span>
+					  <span class="large" data-font-size="20">A</span>
+					</div>
+				  </th>
+				  <th><Select>
+					<option value="English">English</option>
+					<option value="Sinala">සිංහල</option>
+					<option value="Tamil">தமிழ்</option>
+				  </Select>
+				  </th>
+				</tr>
+			  </table>
+			</nav> 
+		  </div>
+		  <!-- Second Nav -->
+		  <nav>
+			<div class="main-nav">
+			<ul class="main-list">
+			  <li>
+				<a href="#" class="first-nav">
+				Everyday Deposits
+				<i class="arrow-down" ></i>
+				</a>
+				<div class="dropdown">
+				  <ul>
+					<li><a href="SavingAccounts.html">Saving Accounts</a></li>
+					<li><a href="Blank.html">Current Accounts </a></li>
+					<li><a href="Blank.html">Foreign Currency A/C</a></li>
+					<li><a href="Blank.html">Term Deposits</a> </li>
+				  </ul>
+				</div>
+			  </li>
+			  <li>
+				<a href="#" class="first-nav">
+				Everyday Loans
+				<i class="arrow-down"></i>
+				</a>
+				<div class="dropdown">
+				  <ul>
+					<li><a href="HousingLoans.html">Housing Loans</a></li>
+					<li><a href="Blank.html">Professional Loans</a></li>
+					<li><a href="Blank.html">Quick & Easy Loans A/C</a></li>
+					<li><a href="Blank.html">Vehicle Loans</a> </li>
+					<li><a href="Blank.html">Educational Loans</a> </li>
+				  </ul>
+				</div>
+			  </li>
+			  <li>
+				<a href="#" class="first-nav">
+				Business Loans 
+				<i class="arrow-down"></i>
+				</a>
+				<div class="dropdown">
+				  <ul>
+					<li><a href="CorporateBanking.html">Corporate Banking</a></li>
+					<li><a href="Blank.html">SME Loans</a></li>
+					<li><a href="Blank.html">Microfinance Loans</a></li>
+					<li><a href="Blank.html">Refinance Loans</a> </li>
+					<li><a href="Blank.html">Development Loans</a> </li>
+					<li><a href="Blank.html">Co-operative Loans</a> </li>
+				  </ul>
+				</div>
+			  </li>
+			  <li>
+				<a href="#" class="first-nav">
+				Cards 
+				<i class="arrow-down"></i>
+				</a>
+				<div class="dropdown">
+				  <ul>
+					<li><a href="card.html">Debit Cards</a></li>
+					<li><a href="Blank.html">Credit Cards</a></li>
+					<li><a href="Blank.html">Merchant Services</a></li>
+					<li><a href="Blank.html">Special Offers</a> </li>
+				  </ul>
+				</div>
+			  </li>
+			  <li>
+				<a href="#" class="first-nav">
+				Digital Banking  
+				<i class="arrow-down"></i>
+				</a>
+				<div class="dropdown">
+				  <ul>
+					<li><a href="MobileBanking.html">Mobile Banking Personal</a></li>
+					<li><a href="Blank.html">Internet Banking Personal</a></li>
+					<li><a href="Blank.html">Mobile Banking Corporate</a></li>
+					<li><a href="Blank.html">Internet Banking Corporate</a> </li>
+					<li><a href="Blank.html">Mobile Wallet</a> </li>
+					<li><a href="Blank.html">How to do Clips</a> </li>
+					<li><a href="Blank.html">User Manual</a> </li>
+				  </ul>
+				</div>
+			  </li>
+			  <li>
+				<a href="#" class="first-nav">
+				Others   
+				<i class="arrow-down"></i>
+				</a>
+				<div class="dropdown">
+				  <ul>
+					<li><a href="Blank.html">Foreign Remittance</a></li>
+					<li><a href="Blank.html">Treasury Services</a></li>
+					<li><a href="Blank.html">Commercial Banking</a></li>
+				  </ul>
+				</div>
+			  </li>
+			  <li>
+				<a href="#" class="first-nav">
+				Memberships   
+				<i class="arrow-down"></i>
+				</a>
+				<div class="dropdown">
+				  <ul>
+					<li><a href="Blank.html">Elegance</a></li>
+					<li><a href="Blank.html">Excelsior</a></li>
+				  </ul>
+				</div>
+			  </li>
+			  <li>
+				<a href="#" class="first-nav">
+				Apply for    
+				<i class="arrow-down"></i>
+				</a>
+				<div class="dropdown">
+				  <ul>
+					<li><a href="Blank.html">A Loan</a></li>
+				</div>
+			  </li>
+			</ul>
+			
+			<div class="nav-red-button-container custom-padding1 online-banking-btn">
+			  <div class="red-background"></div>
+			 <a href="Blank.html"> <button style="text-align: right;" class="nav-red-btn">Online Banking</button></a>
+			</div>
+		  </div>      
+		  </nav>
+
+		  <!-- Content-->
+
+
+		<section class="top-image-section">
+			<div class="top-image-div">
+				<div class="top-image-text">
+					<h2 class="top-image-h2">
+						<span class="top-span">Corporate</span>
+						<br/>
+						<span class="bottom-span">Banking</span>
+					</h2>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="button-section">
+			<div class="button-main-top-div">
+				<a href="blank.html" class="button-set-link">
+					<div class="button-set-div-active">
+					<span>
+						Corporate Banking
+					</span>
+					</div>
+				</a>
+
+				<a href="blank.html" class="button-set-link">
+					<div class="button-set-div">
+					<span>
+						SME Loans
+					</span>
+					</div>
+				</a>
+
+				<a href="blank.html" class="button-set-link">
+					<div class="button-set-div">
+					<span>
+						Micro Finance Loans
+					</span>
+					</div>
+				</a>
+
+				<a href="blank.html" class="button-set-link">
+					<div class="button-set-div">
+					<span>
+						Refinance Loans
+					</span>
+					</div>
+				</a>
+
+				<a href="blank.html" class="button-set-link">
+					<div class="button-set-div">
+					<span>
+						Development Loans
+					</span>
+					</div>
+				</a>
+				</div>
+				<div class="button-main-bottom-div">
+				<a href="blank.html" class="button-set-link">
+					<div class="button-set-div">
+					<span>
+						Co-operative
+					</span>
+					</div>
+				</a>
+			</div>	
+		</section>
+
+		<div class="block-3">
+			<a href = "#corporate" class="block-3-box-link">
+			<div class="block-3-box-active">
+				
+				<img src="BusinessLoansImage/Corporate Lending.png">
+				<h3>Corporate Lending</h3>
+				
+			</div>
+		</a>
+
+			<div class="block-3-box" onclick="openCard(event, 'Corporate-Lending')">
+				<img src="BusinessLoansImage/Off - Shore Banking UnitR.png">
+				<h3>Off-Shore Banking Unit</h3>
+			</div>
+
+			<div class="block-3-box" onclick="openCard(event, 'Corporate-Lending')">
+				<img src="BusinessLoansImage/Trading FinanceR.png">
+				<h3>Trade Finance</h3>
+			</div>
+			
+		</div>
+
+		<div id="Corporate-Landing" class="block-4">
+			<a name="corporate">
+			<div class="block-4-top" >
+				<h2 class="block-4-h">
+					Corporate Lending
+				</h2>
+				<p class="block-4-p">
+					Corporate Banking provides tailor made financial solutions to the corporate sector. 
+					The corporate clientele includes private sector corporates and state owned enterprises across a wide range of industries.
+					<br>
+					<br>
+					We provide corporate clients with a comprehensive range of products and solutions such as, 
+				</p>
+				<ul class="block-4-ul">
+					<li class="block-4-li">
+						<p class="before-p"> Import Financing</p>
+					</li>
+					<li class="block-4-li">
+						<p class="before-p"> Export Financing</p>
+					</li>
+					<li class="block-4-li">
+						<p class="before-p"> Working Capital Financing</p>
+					</li>
+					<li class="block-4-li">
+						<p class="before-p"> Project Financing</p>
+					</li>
+					<li class="block-4-li">
+						<p class="before-p"> Structured Term Financing</p>
+					</li>
+					<li class="block-4-li">
+						<p class="before-p"> Syndicated Finance facilities</p>
+					</li>
+					<li class="block-4-li">
+						<p class="before-p"> Guarantee Facilities</p>
+					</li>
+					<li class="block-4-li">
+						<p class="before-p"> Corporate Financial Advisory</p>
+					</li>
+					<li class="block-4-li">
+						<p class="before-p"> Mobilization of Local and Foreign Currency high-value deposits.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</a>
+		<section class="block-5-section">
+			<div class="block-5-div">
+				<div class="block-5-left-div">
+					Contact Us
+				</div>
+				<div class="block-5-right-div">
+					<div>
+					<div class="block-5-right-sub-div">
+						<ul class="block-5-right-ul">
+							<li class="block-5-right-li">
+								<img src="BusinessLoansImage/loactionPin.png">
+								<span>
+									People's Bank Head Office,11<sup>th</sup> Floor,</span>
+									<br>
+									<span>	No 75, Sir Chittampalam A Gardiner Mawatha,</span>
+									<br>
+									<span>	Colombo 02.
+								</span>
+							</li>
+						</ul>
+					</div>
+					</div>
+
+					<div>
+					<div class="block-5-right-sub-div">
+						<ul class="block-5-right-ul">
+							<h6>For any inquires</h6>
+							<li>
+								<img src="BusinessLoansImage/Phone.png">
+								<span>+94 11 4713460</span>
+							</li>
+							<li>
+								<img src="BusinessLoansImage/Phone.png">
+								<span>+94 11 2206745</span>
+							</li>
+							<li>
+								<img src="BusinessLoansImage/Phone.png">
+								<span>+94 11 2396424</span>
+							</li>
+							<li>
+								<img src="BusinessLoansImage/Group 42.png">
+								<span>+94 11 2473340</span>
+							</li>
+						</ul>
+					</div>
+					</div>
+					<div>
+						<div class="block-5-right-sub-div-top">
+						<div class="block-5-right-sub-div">
+							<ul class="block-5-right-ul">
+								<h6>
+									Mrs. Kumari Senaratne
+								</h6>
+								<li>
+									<img src="BusinessLoansImage/profile.png">
+									<span>
+										Deputy General Manager - Corporate Banking
+									</span>
+								</li>
+								<li>
+									<img src="BusinessLoansImage/Phone.png">
+									<span>
+										+94 11 2336805
+									</span>
+								</li>
+								<li>
+									<img src="BusinessLoansImage/Group 42.png">
+									<span>
+										+94 11 2332748
+									</span>
+								</li>
+								<li>
+									<img src="BusinessLoansImage/Email.png">
+									<span>
+										kumari@peoplesbank.lk
+									</span>
+								</li>
+							</ul>
+						</div>
+
+						<div class="block-5-right-sub-div">
+							<ul class="block-5-right-ul">
+								<h6>
+									Mrs. Dhammika Dasanayake
+								</h6>
+								<li>
+									<img src="BusinessLoansImage/profile.png">
+									<span>
+										Assistant General Manager Off-shore & Corporate Credit
+									</span>
+								</li>
+								<li>
+									<img src="BusinessLoansImage/Phone.png">
+									<span>
+										+94 11 2324716
+									</span>
+								</li>
+								<li>
+									<img src="BusinessLoansImage/Group 42.png">
+									<span>
+										+94 11 2446410
+									</span>
+								</li>
+								<li>
+									<img src="BusinessLoansImage/Email.png">
+									<span>
+										dammikad@peoplesbank.lk
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="block-5-right-sub-div-top">
+						<div class="block-5-right-sub-div">
+							<ul class="block-5-right-ul">
+								<h6>
+									Mrs. Champa Kumudini Gamage
+								</h6>
+								<li>
+									<img src="BusinessLoansImage/profile.png">
+									<span>
+										Assistant General Manager  Corporate Banking (Relationship I)
+									</span>
+								</li>
+								<li>
+									<img src="BusinessLoansImage/Phone.png">
+									<span>
+										+94 11 2473568
+									</span>
+								</li>
+								<li>
+									<img src="BusinessLoansImage/Group 42.png">
+									<span>
+										+94 11 2329575
+									</span>
+								</li>
+								<li>
+									<img src="BusinessLoansImage/Email.png">
+									<span>
+										champ@peoplesbank.lk
+									</span>
+								</li>
+							</ul>
+						</div>
+
+						<div class="block-5-right-sub-div">
+							<ul class="block-5-right-ul">
+								<h6>
+									Mr. Nalin Perera
+								</h6>
+								<li>
+									<img src="BusinessLoansImage/profile.png">
+									<span>
+										Assistant General Manager  Corporate Banking (Relationshio II)
+									</span>
+								</li>
+								<li>
+									<img src="BusinessLoansImage/Phone.png">
+									<span>
+										011-2324122 / 011-2481481 (Ext 1196)
+									</span>
+								</li>
+								<li>
+									<img src="BusinessLoansImage/Group 42.png">
+									<span>
+										011-2324122 / 011-2446410
+									</span>
+								</li>
+								<li>
+									<img src="BusinessLoansImage/Email.png">
+									<span>
+										nalinw@peoplesbank.lk
+									</span>
+								</li>
+							</ul>
+						<div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+
+	<footer>
+		<div class="footer">
+			<div class="footer-title"><h3>About Us</h3>
+			  <div class="footer-data">
+				<a href="blank.html">Who We Are</a>
+				<a href="blank.html">Board of Directors</a>
+				<a href="blank.html">Coparate Management</a>
+				<a href="blank.html">Executive Management</a>
+				<a href="blank.html">Coparate Information</a>
+				<a href="blank.html">Awards</a>
+			  </div>
+			</div>
+			<div class="footer-title"><h3>Quick Links</h3>
+			  <div class="footer-data">  
+				<a href="blank.html">Tender Notices</a>
+				<a href="blank.html">Properties For Sale</a>
+				<a href="blank.html">Newsletters</a>
+				<a href="blank.html">Branch Network</a>
+				<a href="blank.html">Bank Holidays</a>
+				<a href="blank.html">Customer Charter</a>
+				<a href="blank.html">News and Events</a>
+			  </div>
+			</div>
+	
+			<div class="footer-title"><h3>Quick Links</h3>
+	
+			  <div class="footer-data">
+				<a href="blank.html" class="">Latest Finantial Results</a>
+				<a href="blank.html">EPF/ETF Payments</a>
+				<a href="blank.html">Downloads</a>
+				<a href="blank.html">Sate Deposit Lockers</a>
+				<a href="blank.html">Security Tips</a>
+				<a href="blank.html">Find ATM/Branches</a>
+				<a href="blank.html">Loan Calculator</a>
+			   <a href="blank.html">Interest Rates</a>
+			  </div>  
+			</div>
+			<div class="footer-title"><h3>People's Bank</h3>
+			  <div class="footer-data">
+				<ul>
+				  <li class="footer-address">NO.75, Sri Chittampalam A.</li>
+				  <li class="footer-address">Gardier Mawatha,</li>
+				  <li class="footer-address">Colombo 2, Sri Lanka</li>
+				</ul>
+				<ul>
+				  <li class="footer-contact">Telephone : +94(0)112481481</li>
+				  <li class="footer-contact">Call Center : 1961</li>
+				  <li class="footer-contact">E-mail : info@peoplesbank.lk</li>
+				</ul>
+			  </div>  
+			  <h3>Follow Us</h3>
+				<div class="footer-socialmedia">
+				  <a href="blank.html"><img src="icons/facebook.png"></a>
+				  <a href="blank.html"><img src="icons/youtube.png"></a>
+				  <a href="blank.html"><img src="icons/twitter.png"></a>
+				  <a href="blank.html"><img src="icons/linkedin.png"></a>
+				  <a href="blank.html"><img src="icons/instagram.png"></a>
+				</div>  
+			  </div>
+		</div>
+		<hr>
+		
+		<div class="footer-endblock">
+			<div class="footer-copyright">
+				<h7 style=><small><sup>©</sup></small> 2022 People's Bank. All rights reserved.</h7>
+			</div>
+			<div class="endblock-links">
+				<a href="blank.html">Site map</a>
+				<a href="blank.html">FAQs</a>
+				<a href="blank.html">Terms & Conditions</a>
+				<a href="blank.html">FATCA Forms</a>
+			</div>
+			<div class="footer-solutions">
+				<h7>Solution by Loops</h7>
+			</div>
+		</div> 
+	  </footer>
+</html>
