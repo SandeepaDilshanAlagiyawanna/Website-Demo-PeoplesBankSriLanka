@@ -64,10 +64,12 @@ body {
 .header .nav a{
     margin: 10px;
     text-decoration: none;
-    color: black;
-
+    
 }
 
+.header a:link{
+    color: black;
+}
 
 .font-size-swither .small:hover{
     color: rgb(211, 7, 7);
