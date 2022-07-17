@@ -224,9 +224,6 @@ ol, ul {
     color: #81D000;
 }
 
-.text-bar3 ul li.active{
-    border-bottom: 3px solid #81D000
-}
 .text-bar3 ul li {
     padding-top: 20px;
     margin-bottom: 10px;
@@ -376,3 +373,4 @@ a {
     background: #fff;
 
 }
+

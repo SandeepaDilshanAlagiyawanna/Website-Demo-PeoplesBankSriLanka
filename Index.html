@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="body.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="ExchangeRates.css">
   </head>
   <body>
     <!-- First Nav -->
@@ -167,43 +168,75 @@
 
  <!-- Home main image 1 -->
 
-  <div class="mainimage">
-    <div class = "mainbox">
-    <a href ="https://www.peoplesbank.lk/loan-calculator/">
-    <div class="box">
-      <img class="img" src="img/Group 16.png" >
-      
-      <h4 align = "center" style="color:#fff">Loan <br/>
-      Calculator</h4>
-    </div>
-  </a>
-  <a href ="https://www.peoplesbank.lk/exchange-rates">
-    <div class="box">
-      <img class="img" src="img/top-cal-img2.png"/>
-      
-      <h4 align = "center" style="color:#fff">Exchange <br/>
-      Rates</h4>
-    </div>
-  </a>
-    <a href ="https://www.peoplesbank.lk/interest-rates/">
-    <div class="box">
-      <img class="img" src="img/top-cal-img4.png"/>
-      
-      <h4 align = "center" style="color:#fff">Interest <br/>
-      Rates</h4>
-    </div>
-  </a>
-    <a href ="https://www.peoplesbank.lk/branch-service-center/">
-    <div class="box">
-      <img class="img" src="img/top-cal-img3.png"/>
-      
-      <h4 align = "center" style="color:#fff">Fing ATM <br/>
-      / Branch</h4>
-    </div>
-  </a>
+ <section class ="home-main-image-section">
+  <div>
+  <button class="home-image-button" onclick="window.location.href='';">
+    
+  </button>
   </div>
-</div>
+  <div class = "exchange-rate-box">
+    <h5>Latest Exchange Rates</h5>
+    <select class = "exchange-rates-select">
+      <option class="exchange-rates-option" value="USD">USD</option>
+      <option class="exchange-rates-option" value="JPY">JPY</option>
+      <option class="exchange-rates-option" value="GBP">GBP</option>
+      <option class="exchange-rates-option" value="EUR">EUR</option>
+      <option class="exchange-rates-option" value="AUD">AUD</option>
+    </select>
+    <div class = "exchange-rates-value-box">
+      <div class="exchange-rates-value" id="exchange-rates-USD">
+        <p>
+          <span>355.56</span>
+          <br/>
+          <span>Buying (LKR)</span>
+        </p>
+        <p>
+          <span>369.74</span>
+          <br/>
+          <span>Selling (LKR)</span>
+        </p>
+      </div>
+    </div>
+    <div class="exchange-rates-cal-box">
+      <div class="exchange-rates-cal-up-box">
+        
+        <a class="exchange-rates-cal-box-link" href = "blank.html">
+          <img class="img-normal" src="img/top-cal-img1.png">
+          <!--<img class="img-active" src="img/homecalgreen.png"> -->
+          <br>
+          <span>Loan Calculator</span>
+        </a>
+      
+      
+        <a class="exchange-rates-cal-box-link" href = "blank.html">
+          <img class="img-normal" src="img/top-cal-img2.png">
+          <!--<img class="img-active" src="img/homemoneygreen.png"> -->
+          <br>
+          <span>Exchange Rates</span>
+        </a>
+      
+      </div>
+      <div class="exchange-rates-cal-down-box">
+        
+        <a class="exchange-rates-cal-box-link" href = "blank.html">
+          <img class="img-normal" src="img/top-cal-img3.png">
+          <!--<img class="img-active" src="img/homerategreen.png"> -->
+          <br>
+          <span>Interest Rates</span>
+        </a>
+        
+                    <a class="exchange-rates-cal-box-link" href = "blank.html">
+          <img class="img-normal" src="img/top-cal-img4.png">
+          <!--<img class="img-active" src="img/homelocgreen.png"> -->
+          <br>
+          <span>Find ATM / Branch</span>
+        </a>
+        
+      </div>
+    </div>
+  </div>
 
+</section>
   <!-- Block 2 image -->
 
 <div class ="block_2">
