@@ -1,0 +1,123 @@
+@font-face {
+    font-family: sansation_bold;
+    src: url(sansation/Sansation_Bold.ttf);
+ }
+ .main-image { background-image: url(MobileBanking/digital_banking_inner_Page.jpg); background-repeat:no-repeat; padding: 100px; padding-left: 0px; background-size: cover;} 
+ .main-image h2 { color:#C80000; padding:10px; padding-left: 55px; margin:0px; border: 0px; font-size: 2.4em; font-family: sansation_bold; font-weight: 500; line-height: 1.2;cursor: text;} 
+ .main-image h2 span { color:#FFCC00; font-family: sansation_bold; margin-top: 0;
+                     margin-bottom: 0rem;}
+ .blur-image{ background-image: url(arrowgrey2.png); background-repeat :no-repeat; padding-top: 2px; padding-bottom: 2px; padding-left: :50px; width:500px; background-size:100% 100%; max-width: 400px;} 
+
+ .body{background-color: #F7F7F7;}
+
+.btn{
+margin-left:20px ;
+display: inline-flex;
+row-gap: 100px;
+font-size: 1.1em;
+line-height: 2em;
+}
+
+
+
+.button{
+ cursor: pointer;
+ border-radius: 7px;
+ margin-right: 20px;
+ text-align:center;
+ width: 275px;
+ height: 55px;
+ padding: 10px;
+ font-family:sansation-regular ;
+ border: 1px solid rgba(0,0,0,0.45);
+ font-size:1.1em;
+ line-height: 1em;
+ outline: none;
+ margin-top: 15px;
+
+}
+ 
+ 
+ 
+ 
+ @font-face {
+     font-family:Sansation-Regular ;
+     src: url(sansation/Sansation_Regular.ttf) 
+
+}
+
+button:hover{background-color:(247, 247, 247 );
+     border-color: #00c800;
+     color: #00c800;	
+     border: 1px solid #81D000;}
+
+.ex{
+    display: inline-flex;
+}
+
+.box1{
+    font-family:Sansation-Regular ;
+    padding: 20px;
+    padding: 30px;								  				
+    width: 30%;
+    border-radius: 10px;   				
+    background: rgb(215, 45, 45);
+    border: 1px solid rgba(200,0,0,0.5);
+    color: white;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px;
+    }
+
+
+.box2{
+    font-family:Sansation-Regular ;				
+    padding: 30px;
+    border-radius: 10px;
+    width: 30%;
+    background: #fff;
+    border: 1px solid rgba(200,0,0,0.5);
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px;
+}
+
+
+
+
+.icon-image1{background-image: url(MobileBanking/phnBubble.png);
+         background-repeat: no-repeat;
+
+}
+
+
+.icon1{	background-image: url(MobileBanking/phnBubbleRed.png);
+     background-repeat: no-repeat ;
+     
+ 
+ }
+
+
+     
+         
+      
+.icon-image2{background-image: url(MobileBanking/PeopleR.png);
+             background-repeat: no-repeat;}	 
+
+.text-area{background-color: #F7F7F7;
+             width: 100%;}
+
+.wowe{
+    padding: 20px;
+    background-image: url(MobileBanking/waveRed.png);
+    background-size: 80px 70px;
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
+    font-family:Sansation-Regular ;
+
+}
+
+.text-area h1{
+    padding-left:100px ;
+   
+}
