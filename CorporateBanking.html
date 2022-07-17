@@ -5,6 +5,7 @@
 		<title>Peoples Bank - Personal & Corporate Banking | Investments & Loans </title>
 		<link rel="stylesheet" href="header.css">
 		<link rel="stylesheet" href="footer.css">
+		<link rel="stylesheet" href="body.css">
 		<style>
 
 
@@ -714,6 +715,36 @@
 				</div>
 			</div>
 		</section>
+		<div class="feedback">
+			<a href="Feedbackform.html">Feedback</a>
+		  </div>
+	  
+		  <button onclick="topFunction()" id="myBtn"><img src="img-body/collapse-arrow.png" onmouseover="this.src='img-body/collapse-arrow-hover.png'" onmouseout="this.src='img-body/collapse-arrow.png'"></button>
+	  
+		  <script>
+	  
+			//Get the button
+			var mybutton = document.getElementById("myBtn");
+			
+			// When the user scrolls down 300px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+			
+			function scrollFunction() {
+			  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+				mybutton.style.display = "block";
+			  } else {
+				mybutton.style.display = "none";
+			  }
+			}
+			
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			  document.body.scrollTop = 0;
+			  document.documentElement.scrollTop = 0;
+			}
+			
+			setTimeout(scrollFunction, 5000);
+			</script>
 	</body>
 
 	<footer>
