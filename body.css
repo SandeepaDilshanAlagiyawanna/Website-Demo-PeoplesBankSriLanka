@@ -24,8 +24,8 @@ img {vertical-align: middle;}
 }
 
 .feedback{
-	background-color: #c80000;
-	color: white;
+	background-color: #c80001;
+	color: #000000;
 	height: 100px;
 	width: 40px;
 	border-top-left-radius:5px;
@@ -70,9 +70,11 @@ img {vertical-align: middle;}
   }
   
   #myBtn:hover {
-	background-color: #555;
+	background-color: #554;
   }
 
   html{
 	scroll-behavior: smooth;
   }
+  
+
